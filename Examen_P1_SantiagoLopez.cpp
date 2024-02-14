@@ -24,7 +24,15 @@ public:
 int main()
 {
     Rectangulo r1;
+    r1.esquinaX = 0;
+    r1.esquinaY = 0;
+    r1.setAncho(0);
+    r1.setAltura(0);
+
     Rectangulo r2 (8, 10);
+    r2.setAncho(0);
+    r2.setAltura(0);
+
     Rectangulo r3 (8, 10, 0, 0);
 
     r1.intersecta(r2);
