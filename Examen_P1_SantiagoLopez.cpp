@@ -25,7 +25,7 @@ int main()
 {
     Rectangulo r1;
     Rectangulo r2 (8, 10);
-    Rectangulo r3 (8, 10, 0, 0);
+    Rectangulo r3 (1, 1, 5, 15);
 
     r1.intersecta(r2);
     r1.intersecta(r3);
